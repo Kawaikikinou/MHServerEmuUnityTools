@@ -75,3 +75,4 @@ crashlytics-build.properties
 /MHServerEmuUnityTools/obj/Debug
 /MHServerEmuUnityTools/Logs
 /MHServerEmuUnityTools/UserSettings
+/MHServerEmuUnityTools/.vsconfig
