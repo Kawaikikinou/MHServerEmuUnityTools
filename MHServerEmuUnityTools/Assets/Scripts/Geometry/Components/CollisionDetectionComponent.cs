@@ -1,9 +1,12 @@
 using UnityEngine;
 
-public class CollisionDetectionComponent : MonoBehaviour
+namespace Assets.Scripts.Geometry
 {
-    private void OnTriggerEnter(Collider other)
+    public class CollisionDetectionComponent : MonoBehaviour
     {
-        Debug.Log("Collision!!");
+        private void OnTriggerEnter(Collider other)
+        {
+            Debug.Log("Collision!!");
+        }
     }
 }
